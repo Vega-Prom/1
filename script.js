@@ -33,7 +33,12 @@ if (blockSize && volumeInput) {
   volumeInput.addEventListener('input', calcBlocks);
 }
 
-const orderPhone = '77473939665';
+const orderPhone = '77005303289';
+function openWhatsApp(text) {
+  const url = `https://wa.me/${orderPhone}?text=${encodeURIComponent(text)}`;
+  window.open(url, '_blank');
+}
+const orderPhone = '77077677070';
 function openWhatsApp(text) {
   const url = `https://wa.me/${orderPhone}?text=${encodeURIComponent(text)}`;
   window.open(url, '_blank');
